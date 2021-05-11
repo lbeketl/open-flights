@@ -92,7 +92,7 @@
 
  const SubmitBtn = styled.button`
   color: #fff;
-  background: #333;
+  background: #4e8509;
   border-radius: 4px;
   padding: 12px;
   font-size: 18px;
@@ -104,8 +104,8 @@
 
   &:hover {
     background: #fff;
-    color: #000;
-    border: 1px solid #fff;
+    color: #4e8509;
+    border: 1px solid #4e8509;
   }
  `
 

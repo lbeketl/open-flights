@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  padding: 50px 100px 50px 50px;
+  padding: 50px 100px 50px 20px;
   font-size: 30px;
 
   img {
@@ -37,7 +37,7 @@ const Header = props => {
       <div>
         <TotalReviews>{total} User Reviews</TotalReviews>
         <div className='starRating'></div>
-        <TotalOutOf>{avg_score} out 5</TotalOutOf>
+        <TotalOutOf>{avg_score} out of 5 stars</TotalOutOf>
       </div>
     </Wrapper>
   )
